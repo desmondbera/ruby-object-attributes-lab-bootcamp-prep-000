@@ -3,12 +3,12 @@ class Dog
     @name 
   end 
   
-  def name=(name)
+  def name=(new_name)
     @name = name
   end 
 end 
 
-begin
+
   def initialize(name)
     @name = name
   end
